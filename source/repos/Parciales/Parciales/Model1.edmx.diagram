@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="795ace7fa7a74ccfa4b3c30d17660814" Name="Diagram1" DisplayType="true" >
+        <EntityTypeShape EntityType="Model1.Estudiante" Width="1.875" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Parcial" Width="1.875" PointX="3" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Curso" Width="1.875" PointX="5.5" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Materia" Width="1.875" PointX="8" PointY="0.5" />
+        <AssociationConnector Association="Model1.EstudianteParcial" />
+        <AssociationConnector Association="Model1.ParcialCurso" />
+        <AssociationConnector Association="Model1.CursoMateria" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

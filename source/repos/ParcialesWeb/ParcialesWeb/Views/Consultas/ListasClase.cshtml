@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ParcialesWeb.Models.Lista>
+@{
+    ViewBag.Title = "Listas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Listas de clase de cada Curso</h2>
+<hr>
+@foreach (var item in Model)
+{
+    <h3>Curso</h3>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => item.Materia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.Materia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => item.Semestre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.Semestre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => item.Grupo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.Grupo)
+        </dd>
+    </dl>
+
+    foreach (var u in item.Estudiantes)
+    {
+        <h4>@u</h4>
+    }
+}

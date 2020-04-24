@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{D1E1AA52-A55D-4C0D-8443-7CCC459496B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaIcesi", "ClassLibrary1\BibliotecaIcesi.csproj", "{981BBAA2-11CF-4A05-9C5A-DD6C248BE559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E1AA52-A55D-4C0D-8443-7CCC459496B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E1AA52-A55D-4C0D-8443-7CCC459496B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E1AA52-A55D-4C0D-8443-7CCC459496B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E1AA52-A55D-4C0D-8443-7CCC459496B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981BBAA2-11CF-4A05-9C5A-DD6C248BE559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981BBAA2-11CF-4A05-9C5A-DD6C248BE559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981BBAA2-11CF-4A05-9C5A-DD6C248BE559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981BBAA2-11CF-4A05-9C5A-DD6C248BE559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9DC64C6-BCB3-4205-A8DA-900DD63FF292}
+	EndGlobalSection
+EndGlobal

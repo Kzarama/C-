@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ParcialesWeb.Models.EstPromAcumulado>
+@{
+    ViewBag.Title = "UsuariosOrdenadosPlanNombre";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Estudiantes y su promedio acumulado</h3>
+<table class="table">
+    <tr>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Promedio Acumulado
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Promedio)
+            </td>
+        </tr>
+    }
+</table>
